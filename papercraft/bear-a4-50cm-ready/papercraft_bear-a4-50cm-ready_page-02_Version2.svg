@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <defs>
+    <style>
+      .cut { fill: none; stroke: #000; stroke-width: 0.35; }
+      .foldV { fill: none; stroke: #00A; stroke-width: 0.25; stroke-dasharray: 2.2 1.4; }
+      .txt { font-family: Arial, Helvetica, sans-serif; font-size: 3.2mm; fill: #000; }
+      .guide { fill: none; stroke: #999; stroke-width: 0.2; stroke-dasharray: 2 2; }
+    </style>
+  </defs>
+
+  <text class="txt" x="8" y="12">Low‑poly Teddy (50cm) — Página 02/15 — A4 100% (sin escalar)</text>
+  <text class="txt" x="8" y="18">HEAD_CAP (tapas) — corta/plega, pestañas internas</text>
+  <rect class="guide" x="8" y="24" width="194" height="265"/>
+
+  <g transform="translate(10,32)">
+    <text class="txt" x="0" y="-2">HEAD_CAP x6</text>
+
+    <!-- HEAD_CAP trapezoid (55x55) with a tab on top edge -->
+    <!-- Place 3 on first row, 3 on second -->
+    <g transform="translate(0,0)">
+      <path class="cut" d="M 0,0 55,0 50,55 5,55 Z"/>
+      <line class="foldV" x1="0" y1="0" x2="55" y2="0"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+      <line class="foldV" x1="50" y1="55" x2="5" y2="55"/>
+      <line class="foldV" x1="5" y1="55" x2="0" y2="0"/>
+
+      <!-- tab on edge 55,0 -> 50,55 (left) -->
+      <path class="cut" d="M 53.93,9.90 51.07,45.10 39.43,46.05 42.29,10.85 Z"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+    </g>
+
+    <g transform="translate(65,0)">
+      <path class="cut" d="M 0,0 55,0 50,55 5,55 Z"/>
+      <line class="foldV" x1="0" y1="0" x2="55" y2="0"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+      <line class="foldV" x1="50" y1="55" x2="5" y2="55"/>
+      <line class="foldV" x1="5" y1="55" x2="0" y2="0"/>
+      <path class="cut" d="M 53.93,9.90 51.07,45.10 39.43,46.05 42.29,10.85 Z"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+    </g>
+
+    <g transform="translate(130,0)">
+      <path class="cut" d="M 0,0 55,0 50,55 5,55 Z"/>
+      <line class="foldV" x1="0" y1="0" x2="55" y2="0"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+      <line class="foldV" x1="50" y1="55" x2="5" y2="55"/>
+      <line class="foldV" x1="5" y1="55" x2="0" y2="0"/>
+      <path class="cut" d="M 53.93,9.90 51.07,45.10 39.43,46.05 42.29,10.85 Z"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+    </g>
+
+    <g transform="translate(0,80)">
+      <path class="cut" d="M 0,0 55,0 50,55 5,55 Z"/>
+      <line class="foldV" x1="0" y1="0" x2="55" y2="0"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+      <line class="foldV" x1="50" y1="55" x2="5" y2="55"/>
+      <line class="foldV" x1="5" y1="55" x2="0" y2="0"/>
+      <path class="cut" d="M 53.93,9.90 51.07,45.10 39.43,46.05 42.29,10.85 Z"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+    </g>
+
+    <g transform="translate(65,80)">
+      <path class="cut" d="M 0,0 55,0 50,55 5,55 Z"/>
+      <line class="foldV" x1="0" y1="0" x2="55" y2="0"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+      <line class="foldV" x1="50" y1="55" x2="5" y2="55"/>
+      <line class="foldV" x1="5" y1="55" x2="0" y2="0"/>
+      <path class="cut" d="M 53.93,9.90 51.07,45.10 39.43,46.05 42.29,10.85 Z"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+    </g>
+
+    <g transform="translate(130,80)">
+      <path class="cut" d="M 0,0 55,0 50,55 5,55 Z"/>
+      <line class="foldV" x1="0" y1="0" x2="55" y2="0"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+      <line class="foldV" x1="50" y1="55" x2="5" y2="55"/>
+      <line class="foldV" x1="5" y1="55" x2="0" y2="0"/>
+      <path class="cut" d="M 53.93,9.90 51.07,45.10 39.43,46.05 42.29,10.85 Z"/>
+      <line class="foldV" x1="55" y1="0" x2="50" y2="55"/>
+    </g>
+
+  </g>
+</svg>
